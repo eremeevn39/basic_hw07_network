@@ -1,4 +1,4 @@
-#!bash.sh
+#!/bin/bash
 
 #allow input trafic from LAN
 iptables -A INPUT -s 10.0.20.0/24 -j ACCEPT
